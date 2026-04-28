@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chính sách bảo mật — CME News</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 28px 20px 80px;
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    color: #1b1f27;
+    background: #fafafa;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #111418; }
+    h1, h2 { color: #fff; }
+    .meta { color: #aaa; }
+    a { color: #6cb4ff; }
+  }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 32px 0 10px; }
+  .meta { color: #6a6f78; margin-bottom: 24px; }
+  p, li { margin: 8px 0; }
+  ul { padding-left: 22px; }
+  code { background: rgba(0,0,0,0.06); padding: 1px 4px; border-radius: 4px; }
+  hr { border: none; border-top: 1px solid rgba(127,127,127,0.25); margin: 40px 0; }
+</style>
+</head>
+<body>
+
+<h1>Chính sách bảo mật</h1>
+<div class="meta">Ứng dụng: <strong>CME News</strong> · Cập nhật lần cuối: 21/04/2026 · Liên hệ: <a href="mailto:anh080881@gmail.com">anh080881@gmail.com</a></div>
+
+<p>
+  CME News là ứng dụng tổng hợp tin tức tài chính — chứng khoán miễn phí. Tài liệu
+  này mô tả cách ứng dụng xử lý dữ liệu của người dùng. Chúng tôi thiết kế ứng dụng
+  theo nguyên tắc <strong>không thu thập dữ liệu cá nhân</strong>.
+</p>
+
+<h2>1. Dữ liệu chúng tôi thu thập</h2>
+<p>
+  <strong>Không có.</strong> CME News không yêu cầu đăng ký, đăng nhập, không thu
+  thập tên, email, số điện thoại, vị trí, danh bạ, thư viện ảnh, tệp, hoặc bất kỳ
+  thông tin nhận diện thiết bị nào.
+</p>
+
+<h2>2. Dữ liệu lưu cục bộ trên thiết bị</h2>
+<p>
+  Các mục sau được lưu <em>chỉ trên thiết bị của bạn</em> bằng cơ chế
+  <code>SharedPreferences</code> (Android) / <code>NSUserDefaults</code> (iOS) và
+  không gửi tới bất kỳ máy chủ nào:
+</p>
+<ul>
+  <li>Danh sách tin bạn đã lưu (bookmark).</li>
+  <li>Danh sách mã theo dõi (watchlist) bạn tự thêm.</li>
+</ul>
+<p>
+  Khi bạn gỡ cài đặt ứng dụng hoặc xoá dữ liệu ứng dụng, các mục này sẽ mất hoàn
+  toàn.
+</p>
+
+<h2>3. Kết nối mạng</h2>
+<p>
+  Ứng dụng tải danh sách tin từ các nguồn RSS công khai của bên thứ ba. Khi bạn
+  mở ứng dụng, yêu cầu HTTP(S) sẽ được gửi tới các máy chủ sau để lấy nội dung:
+</p>
+<ul>
+  <li><a href="https://nhandan.vn" target="_blank" rel="noopener">nhandan.vn</a> — Báo Nhân Dân</li>
+  <li><a href="https://vietnamplus.vn" target="_blank" rel="noopener">vietnamplus.vn</a> — VietnamPlus (TTXVN)</li>
+  <li><a href="https://baochinhphu.vn" target="_blank" rel="noopener">baochinhphu.vn</a> — Báo Chính phủ</li>
+  <li><a href="https://www.federalreserve.gov" target="_blank" rel="noopener">federalreserve.gov</a> — US Federal Reserve</li>
+  <li><a href="https://www.ecb.europa.eu" target="_blank" rel="noopener">ecb.europa.eu</a> — European Central Bank</li>
+</ul>
+<p>
+  Các máy chủ này có thể ghi nhận địa chỉ IP và User-Agent của thiết bị theo
+  chính sách riêng của họ. Chúng tôi không kiểm soát và không có quyền truy cập
+  tới log của các máy chủ đó.
+</p>
+
+<h2>4. Liên kết ngoài</h2>
+<p>
+  Khi bạn bấm "Đọc bài đầy đủ" hoặc mở liên kết quảng bá (ví dụ
+  <code>https://app.cmexau.news/</code>), hệ thống sẽ mở trình duyệt mặc định
+  (Safari trên iOS, Chrome/Browser trên Android). Các trang web này vận hành
+  độc lập và có chính sách bảo mật riêng. Chúng tôi không thu thập dữ liệu từ
+  các phiên trình duyệt đó.
+</p>
+
+<h2>5. Quảng cáo &amp; Analytics</h2>
+<p>
+  Phiên bản hiện tại <strong>không</strong> tích hợp SDK quảng cáo, analytics,
+  tracking, crash reporting hoặc bất kỳ công cụ bên thứ ba nào để thu thập dữ
+  liệu hành vi.
+</p>
+
+<h2>6. Trẻ em</h2>
+<p>
+  Ứng dụng không hướng tới trẻ em dưới 13 tuổi và không thu thập dữ liệu từ trẻ em.
+</p>
+
+<h2>7. Quyền của bạn</h2>
+<p>
+  Vì không có dữ liệu cá nhân nào rời khỏi thiết bị, không có dữ liệu phía server
+  để yêu cầu truy cập hoặc xoá. Mọi dữ liệu bạn tạo trong ứng dụng (bookmark,
+  watchlist) bạn có thể xoá bất cứ lúc nào trong chính ứng dụng, hoặc bằng cách
+  xoá dữ liệu/gỡ cài đặt.
+</p>
+
+<h2>8. Thay đổi chính sách</h2>
+<p>
+  Nếu có thay đổi, phiên bản mới sẽ được đăng tại URL này và ngày cập nhật bên
+  trên sẽ thay đổi tương ứng. Khi có thay đổi quan trọng (ví dụ: bổ sung SDK
+  analytics) chúng tôi sẽ thông báo trong ghi chú phát hành của phiên bản mới.
+</p>
+
+<h2>9. Liên hệ</h2>
+<p>
+  Mọi câu hỏi về chính sách này, gửi email tới:
+  <a href="mailto:anh080881@gmail.com">anh080881@gmail.com</a>.
+</p>
+
+<hr />
+
+<h1 id="en">Privacy Policy (English)</h1>
+<div class="meta">App: <strong>CME News</strong> · Last updated: 2026-04-21 · Contact: <a href="mailto:anh080881@gmail.com">anh080881@gmail.com</a></div>
+
+<p>
+  CME News is a free financial news aggregator. This document describes how the
+  app handles user data. The app is built around the principle of
+  <strong>collecting no personal data</strong>.
+</p>
+
+<h2>1. Data we collect</h2>
+<p>
+  <strong>None.</strong> CME News requires no account, no sign-up, and no
+  sign-in. We do not collect name, email, phone number, location, contacts,
+  photos, files, or any device identifiers.
+</p>
+
+<h2>2. Data stored locally on your device</h2>
+<p>The following are stored only on your device and never transmitted:</p>
+<ul>
+  <li>Bookmarked articles.</li>
+  <li>Watchlist tickers you add.</li>
+</ul>
+<p>Uninstalling the app or clearing its data removes these entries permanently.</p>
+
+<h2>3. Network requests</h2>
+<p>
+  The app fetches headlines from public RSS feeds of third parties:
+  Nhan Dan, VietnamPlus (Vietnam News Agency), Vietnam Government Portal,
+  U.S. Federal Reserve, European Central Bank. Those servers may log your IP
+  address and User-Agent per their own policies. We have no access to those logs.
+</p>
+
+<h2>4. External links</h2>
+<p>
+  When you tap "Read full article" or a sponsored link (e.g.
+  <code>https://app.cmexau.news/</code>), your default system browser opens the
+  URL. Those sites operate independently with their own privacy policies.
+</p>
+
+<h2>5. Ads &amp; analytics</h2>
+<p>
+  The current build integrates <strong>no</strong> advertising SDK, analytics,
+  tracking, or crash reporting library.
+</p>
+
+<h2>6. Children</h2>
+<p>The app is not directed to children under 13 and collects no data from children.</p>
+
+<h2>7. Your rights</h2>
+<p>
+  Because no personal data leaves your device, there is no server-side data to
+  request access to or delete. In-app data (bookmarks, watchlist) can be cleared
+  from within the app, or by clearing app data / uninstalling.
+</p>
+
+<h2>8. Changes</h2>
+<p>Future changes will be posted at this URL with an updated date.</p>
+
+<h2>9. Contact</h2>
+<p>Questions: <a href="mailto:anh080881@gmail.com">anh080881@gmail.com</a>.</p>
+
+</body>
+</html>
